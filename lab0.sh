@@ -16,7 +16,7 @@ git init
 # cd ..
 # cd old_menu
 
-echo "Баринов проверяет кухню ресторана Victor" > ~lab0/victor/kitchen/barinov_plan
+echo "Баринов проверяет кухню ресторана Victor" > ~/lab0/victor/kitchen/barinov_plan
 echo "Лёва распределяет поваров по рабочим местам" >> ~/victor/kitchen/barinov_plan
 echo "Новое меню готовят к вечернему открытию" >> ~/victor/kitchen/barinov_plan
 
