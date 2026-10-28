@@ -93,7 +93,7 @@ grep -rhiE "victor|баринов" victor archive | grep -v "старт" | sort 
 grep -rlE "макс|кухн" victor/kitchen archive/claude_backup | wc -l
 { head -q -n 1 victor/hall/guest_*  victor/hall/opening_*; tail -q -n 1 victor/hall/guest_* victor/hall/opening_*; } | grep -iE "гост|стол" | sort
 grep -v "десерт" victor/kitchen/tasting_menu | grep -E "макс|блюд" | sort -r | wc -w 
-ls -lR | grep -E "^-.{9}2" | sort -k9 -r
+ls -lR | grep -E "^-.{9} 2" | sort -k9 -r
 ls -lR | grep "^l" | sort -k9,9 | head -n 1
 
 rm victor/management/opening_copy
